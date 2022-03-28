@@ -70,6 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'dango_todo.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-nofursad-ms4fsfdjango-tr2o16twt9w.ws-eu38.gitpod.io',]
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
